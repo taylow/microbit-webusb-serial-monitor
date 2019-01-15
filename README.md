@@ -21,12 +21,14 @@ At the moment, this repo has not been cleaned up and contains a load of potentia
 That being said, this project relies on the [DAPjs](https://github.com/ARMmbed/dapjs) JavaScript interface.
 
 ## Project Notes
-As JavaScript and NodeJS aren't my goto languages, I decided to start with a simple, yet useful project to allow serial communication via the WebUSB standard.
-This project will later be extended to work as a bridge between the BBC micro:bit and the internet, enabling internet connectivity to micro:bits via the onboard 2.4GHz radio.
+As JavaScript and NodeJS aren't my goto languages and I needed to pick it up, I decided to start with a simple, yet useful project to allow serial communication via the WebUSB standard.
+
+This project will later be expanded to work as a bridge between the BBC micro:bit and the internet; enabling internet connectivity to micro:bits via the onboard 2.4GHz radio.
 
 ## Repos
 [DAPjs](https://github.com/ARMmbed/dapjs) JavaScript interface to CMSIS-DAP
 
 ## Code of Conduct
 Not sure if I'm allowed/should put this... But I see it on a lot of micro:bit projects.
+
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
