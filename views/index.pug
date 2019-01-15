@@ -1,0 +1,44 @@
+extends layout
+block head
+  script(src="https://code.jquery.com/jquery-3.3.1.min.js",
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",
+  crossorigin="anonymous")
+  script(src="javascripts/dap.bundle.js")
+
+block content
+  h1=title
+  .container
+    h2#status Please select a device
+    .row
+        button#selectdevice Select Device
+    .row
+      .col-25
+        label(for='input') Input:
+      .col-75
+        input(type='text', id='input', name='input', placeholder='Press enter to send something...', readonly=true)
+    .row
+      .col-25
+        label(for='output', ) Output:
+      .col-75
+        textarea#output(rows=10, readonly=true)
+    .row
+      .col-25
+        label(for="baud") Baud:
+      .col-25
+        select#baud
+          option(value=115200) 115200
+          option(value=57600) 57600
+          option(value=38400) 38400
+          option(value=31250) 31250
+          option(value=28800) 28800
+          option(value=19200) 19200
+          option(value=14400) 14400
+          option(value=9600) 9600
+          option(value=4800) 4800
+          option(value=2400) 2400
+          option(value=1200) 1200
+          option(value=300) 300
+      .col-25
+      .col-25
+        button#clearbutton Clear
+  script(src="javascripts/webusb.js")
