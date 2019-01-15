@@ -21,7 +21,7 @@ At the moment, this repo has not been cleaned up and contains a load of potentia
 That being said, this project relies on the [DAPjs](https://github.com/ARMmbed/dapjs) JavaScript interface.
 
 ## Project Notes
-As JavaScript and NodeJS aren't my goto languages and I needed to pick it up, I decided to start with a simple, yet useful project to allow serial communication via the WebUSB standard.
+As JavaScript isn't my goto language, and my knowledge of NodeJS was lacking, I decided to start with a simple, yet useful project to allow serial communication via the WebUSB standard.
 
 This project will later be expanded to work as a bridge between the BBC micro:bit and the internet; enabling internet connectivity to micro:bits via the onboard 2.4GHz radio.
 
