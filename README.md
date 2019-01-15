@@ -7,6 +7,8 @@ Please add an issue is you wish for any additional features or discover any issu
 ## Local Server
 This serial monitor was implemented with the intentions of understanding NodeJS and the WebUSB standard. That being said, running your own server will require an install of the latest version of NodeJS.
 
+**Note: WebUSB is only available via a secure HTTPS connection or ``localhost`` for development.**
+
 ### Running
 Once you have cloned this repo, head over to the ``bin`` folder where you will find a ``www`` file.
 
@@ -15,6 +17,8 @@ git clone https://github.com/Taylor-Woodcock/microbit-webusb-serial-monitor
 cd microbit-webusb-serial-monitor\bin
 node www
 ```
+
+By default, this application is hosted on port 3000 at ``http://localhost:3000/``
 
 ### Node Modules (DAPjs)
 At the moment, this repo has not been cleaned up and contains a load of potentially useless (for this project) node modules.
