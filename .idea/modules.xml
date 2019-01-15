@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/webusb-bridge.iml" filepath="$PROJECT_DIR$/.idea/webusb-bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microbit-webusb-serial-monitor.iml" filepath="$PROJECT_DIR$/.idea/microbit-webusb-serial-monitor.iml" />
     </modules>
   </component>
 </project>

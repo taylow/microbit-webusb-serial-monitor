@@ -5,7 +5,7 @@
  */
 
 const app = require('../app');
-const debug = require('debug')('webusb-bridge:server');
+const debug = require('debug')('microbit-webusb-serial-monitor:server');
 const http = require('http');
 
 /**
