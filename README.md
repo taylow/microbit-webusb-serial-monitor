@@ -12,7 +12,7 @@ Once you have cloned this repo, head over to the ``bin`` folder where you will f
 
 ```
 git clone https://github.com/Taylor-Woodcock/microbit-webusb-serial-monitor
-cd microbit-webusb-serial-monitor/bin
+cd microbit-webusb-serial-monitor\bin
 node www
 ```
 
@@ -22,6 +22,8 @@ That being said, this project relies on the [DAPjs](https://github.com/ARMmbed/d
 
 ## Project Notes
 As JavaScript isn't my goto language, and my knowledge of NodeJS was lacking, I decided to start with a simple, yet useful project to allow serial communication via the WebUSB standard.
+
+I built this project using WebStorm's brilliant Node.JS Express App generator and utilised the features provided. With the division of business logic and views, modifying the look and feel of the page while maintaining the technical stuff was made very simple. The rendering is achieved via Jade and CSS located in the ``views`` and ``public\stylesheets`` folders, while the logic uses JavaScript found throughout the repo.
 
 This project will later be expanded to work as a bridge between the BBC micro:bit and the internet; enabling internet connectivity to micro:bits via the onboard 2.4GHz radio.
 
